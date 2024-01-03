@@ -82,3 +82,30 @@ if (num1 >= num2)
 {
     console.log("Num1 is greater than or equal to Num2");
 }
+
+//if...else and else if Statements
+name1 = "Kasinath";
+name2 = "Conjeevaram"
+if (name1 === name2)
+{
+    console.log("Name 1 = "+ name1 +", Name 2 = "+ name2 +" are same");
+}
+else
+{
+    console.log("Name 1 = "+ name1 +", Name 2 = "+ name2 +" are different");
+}
+
+num1 = 1000;
+num2 = num1 * num1;
+if (num1 > num2)
+{
+    console.log(num1 + " is greater than "+ num2);
+}
+else if(num2 > num1)
+{
+    console.log(num2 + " is greater than "+ num1);
+}
+else
+{
+    console.log(num1 + " is equal to "+ num2);
+}
